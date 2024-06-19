@@ -1,0 +1,46 @@
+:root {
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Larken";
+  src: url("../public/fonts/Larken-Regular.woff");
+}
+@font-face {
+  font-family: "LarkenItalic";
+  src: url("../public/fonts/Larken-Italic.woff");
+  font-style: italic;
+}
+body {
+  color: #2c2b2e;
+}
+
+button {
+  all: unset;
+  display: inline-block;
+  appearance: none;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  line-height: inherit;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+button:hover {
+  transform: scale(1.1);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
